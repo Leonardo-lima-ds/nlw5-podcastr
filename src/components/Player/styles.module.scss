@@ -136,11 +136,53 @@
 
 }
 
+// TODO: Ajustar a altura do player para não encobrir a maior parte da lista de episódios
 @media (max-width: 1500px) {
-   
+
+    .playerContainer {
+        display: block;
+        min-width: 100%;
+        height: max-content;
+        bottom: 0;
+        position: fixed;
+        padding-bottom: 0;
+
+
+        header {
+            display: none;
+        }
+
+        .currentEpisode {
+            img {
+                display: none;
+            }
+
+            strong {
+                margin-top: 0;
+                padding-top: 0;
+            }
+
+        }
+
+        .buttons {
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0;
+        }
+
+        .emptyPlayer {
+            display: none;
+        }
+
+        .progress {
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+    }
 }
 
-@media (max-width: 834px) {
+@media (max-width: 835px) {
 
     .currentEpisode {
         strong {
@@ -149,13 +191,13 @@
     
         @keyframes scroll-left {
             0%   { 
-            -moz-transform: translateX(100%); /* Browser bug fix */
-            -webkit-transform: translateX(100%); /* Browser bug fix */
+            -moz-transform: translateX(100%); 
+            -webkit-transform: translateX(100%);
             transform: translateX(100%); 		
             }
             100% { 
-            -moz-transform: translateX(-100%); /* Browser bug fix */
-            -webkit-transform: translateX(-100%); /* Browser bug fix */
+            -moz-transform: translateX(-100%);
+            -webkit-transform: translateX(-100%); 
             transform: translateX(-100%); 
             }
         }
