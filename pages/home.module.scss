@@ -173,6 +173,12 @@
     }
 }
 
+@media (max-width: 1400px) {
+    .homepage {
+        padding: 0 2rem;
+    }
+}
+
 @media (max-width: 800px) {
     .lastestEpisodes {
         overflow-x: scroll;
