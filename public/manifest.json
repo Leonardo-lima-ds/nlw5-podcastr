@@ -1,0 +1,65 @@
+{
+    "name": "Podcastr App",
+    "short_name": "Podcastr",
+    "icons": [
+      {
+        "src": "/icons/play-green.svg",
+        "sizes": "192x192",
+        "type": "svg",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/favicon.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/logo.svg",
+        "sizes": "192x192",
+        "type": "svg",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/repeat.svg",
+        "sizes": "192x192",
+        "type": "svg",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/play-next.svg",
+        "sizes": "192x192",
+        "type": "svg",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/pause.svg",
+        "sizes": "192x192",
+        "type": "svg",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/play-previous.svg",
+        "sizes": "192x192",
+        "type": "svg",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/shuffle.svg",
+        "sizes": "192x192",
+        "type": "svg",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/playing.svg",
+        "sizes": "192x192",
+        "type": "svg",
+        "purpose": "any maskable"
+      }
+    ],
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+  }

@@ -35,6 +35,9 @@
 
         img {
             border-radius: 1.5rem;
+            object-fit: cover;
+            width: 400px;
+            height: 400px;
         }
         
         strong {
@@ -42,6 +45,8 @@
             margin-top: 2rem;
             font: 600 1.25rem Lexend, sans-serif;
             line-height: 1.75rem;
+            white-space: nowrap;
+            width: 100%;
         }
 
         span {
@@ -135,6 +140,7 @@
     }
 
 }
+
 
 // TODO: Ajustar a altura do player para não encobrir a maior parte da lista de episódios
 @media (max-width: 1500px) {
