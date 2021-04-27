@@ -1,18 +1,16 @@
-const withPWA = require('next-pwa');
-
-const pwa = withPWA({
-    pwa: {
-        dest: "public",
-        regster: true,
-        skipWaiting: true,
-    }
-});
+const withPwa = require('next-pwa');
 
 module.exports = {
     images: {
         domains: ['storage.googleapis.com'],
     },
-
-    pwa: pwa,
-
+   
+    withPwa: withPwa({
+        pwa: {
+            disable: process.env.NODE_ENV !== 'production',
+            dist: 'public',
+            register: true,
+            sw: '/sw.js'
+        }
+    })
 }

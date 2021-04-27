@@ -1,6 +1,13 @@
 {
-    "name": "Podcastr App",
-    "short_name": "Podcastr",
+    "name": "Podcastr",
+    "short_name": "PCSTR",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "lang": "pt-BR",
+    "scope":"/",
     "icons": [
       {
         "src": "/icons/play-green.svg",
@@ -56,10 +63,5 @@
         "type": "svg",
         "purpose": "any maskable"
       }
-    ],
-    "theme_color": "#FFFFFF",
-    "background_color": "#FFFFFF",
-    "start_url": "/",
-    "display": "standalone",
-    "orientation": "portrait"
+    ]
   }
