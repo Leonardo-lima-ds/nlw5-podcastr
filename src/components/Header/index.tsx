@@ -10,7 +10,7 @@ export default function Header() {
 
     return (
         <header className={styles.headerContainer}>
-            <img src="/logo.svg" alt="logo Podcastr"/>
+            <img src="/icons/logo.svg" alt="logo Podcastr"/>
 
             <p>O melhor para você ouvir hoje</p>
             <span>{currentDate}</span>

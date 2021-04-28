@@ -23,7 +23,7 @@
 
 @media (max-width: 580px) {
     .headerContainer {
-        height: 8.5rem;
+        height: 12.5rem;
         display: grid;
         grid-template-columns: 3fr;
 
@@ -33,9 +33,7 @@
         }
 
         span {
-            display: block;
-            float: right;
-            margin-top: -20%;
+            margin-top: 1rem;   
         }
     }
 }

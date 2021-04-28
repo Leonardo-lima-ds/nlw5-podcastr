@@ -172,3 +172,48 @@
         }
     }
 }
+
+@media (max-width: 1400px) {
+    .homepage {
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .lastestEpisodes {
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 720px) {
+    .allEpisodes {
+        table {
+            th:nth-child(3), 
+            td:nth-child(3) {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 590px) {
+    .allEpisodes {
+        table {
+            th:nth-child(1), 
+            td:nth-child(1) {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 490px) {
+    .allEpisodes {
+        table {
+            th:nth-child(5), 
+            td:nth-child(5) {
+                display: none;
+            }
+        }
+    }
+}
